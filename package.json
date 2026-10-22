@@ -1,0 +1,21 @@
+{
+  "name": "personal-loan-management-system",
+  "version": "1.0.0",
+  "description": "Complete, Secure, Responsive Personal Loan Management Web Application for Private Business Administration",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "node server/src/server.js",
+    "client": "npm.cmd --prefix client run dev",
+    "build:client": "npm.cmd --prefix client run build",
+    "test": "node server/test/run_tests.js"
+  },
+  "keywords": [
+    "loan-management",
+    "personal-finance",
+    "weekly-installments",
+    "repayment-ledger",
+    "private-business"
+  ],
+  "author": "Tamil & Google Antigravity",
+  "license": "ISC"
+}
